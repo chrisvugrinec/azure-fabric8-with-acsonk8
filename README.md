@@ -51,7 +51,7 @@
 - Edit svc kubect edit svc nexus3
 
 References:
-Helm: https://github.com/kubernetes/helm
-Minikube: https://fabric8.io/guide/getStarted/minikube.html
-GoFabric8: https://github.com/fabric8io/gofabric8
-Maven plugin documentation: https://maven.fabric8.io/
+- Helm: https://github.com/kubernetes/helm
+- Minikube: https://fabric8.io/guide/getStarted/minikube.html
+- GoFabric8: https://github.com/fabric8io/gofabric8
+- Maven plugin documentation: https://maven.fabric8.io/
