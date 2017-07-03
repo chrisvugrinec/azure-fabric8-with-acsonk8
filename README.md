@@ -1,5 +1,7 @@
 # Fabric8 on Azure (acs k8)
 
+See it in action here: https://youtu.be/BaHjpqQ4eso
+
 - What is Fabric8, Why use it
   - Tooling OOB: CICD/ Pipelines, Repo, Nexus3, JForge
   - GoFabric8 —> MiniKube for Local development
