@@ -1,5 +1,7 @@
 # Fabric8 on Azure (acs k8)
 
+See it in action here: https://youtu.be/BaHjpqQ4eso
+
 - What is Fabric8, Why use it
   - Tooling OOB: CICD/ Pipelines, Repo, Nexus3, JForge
   - GoFabric8 —> MiniKube for Local development
@@ -51,7 +53,7 @@
 - Edit svc kubect edit svc nexus3
 
 References:
-Helm: https://github.com/kubernetes/helm
-Minikube: https://fabric8.io/guide/getStarted/minikube.html
-GoFabric8: https://github.com/fabric8io/gofabric8
-Maven plugin documentation: https://maven.fabric8.io/
+- Helm: https://github.com/kubernetes/helm
+- Minikube: https://fabric8.io/guide/getStarted/minikube.html
+- GoFabric8: https://github.com/fabric8io/gofabric8
+- Maven plugin documentation: https://maven.fabric8.io/
