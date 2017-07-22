@@ -7,6 +7,11 @@ See it in action here: https://youtu.be/BaHjpqQ4eso
   - GoFabric8 —> MiniKube for Local development
   - Engine for Openshift, perhaps interesting for Enterprise development on kubernetes
 
+- NOTE:
+  - In order to get this working on Azure, use the Ingress controller: kubectl apply -f http://central.maven.org/maven2/io/fabric8/devops/apps/ingress-nginx/2.2.334/ingress-nginx-2.2.334-kubernetes.yml	
+  - kubectl label node [node name] --overwrite fabric8.io/externalIP=true
+  - AND per node add the following to your docker daemon: --insecure-registry=10.0.0.0/8    Azure Container Service only accepts 127.0.0.1 as insecure registry by default. By adding this line in the /etc/systemd/ ....  you will accept the default repo from fabric8 as well :)
+
 # GoFabric8 Demo
 
 ## Fabric8 Local
